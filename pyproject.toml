@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "insuredge_property_casualty_actuarial_analytics"
+version = "1.0.0"
+description = "Property & Casualty Insurance Actuarial Data Warehouse: Chain-ladder loss reserving triangles, Combined Ratio underwriting profit, CAT loss exceedance PML, and claims velocity."
+readme = "README.md"
+authors = [
+    { name = "Abdussatar", email = "satarabdus692@gmail.com" }
+]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Information Analysis"
+]
